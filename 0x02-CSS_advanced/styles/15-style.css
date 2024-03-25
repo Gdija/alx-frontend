@@ -47,7 +47,9 @@ button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-
 
 }
 /* add universal box-sizing */
-* {
+*, 
+*:before,
+*:after{
     box-sizing: border-box;
 }
 html{
