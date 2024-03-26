@@ -327,14 +327,12 @@ ul.row{
     height: 100%;
     position: relative;
 }
-.card-work:link,
- .card-title:link{
+.card-work .card-title a{
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work:link::after,
- .card-title:link::after{
+.card-work .card-title a::after{
     position: absolute;
     top: 0;
     right: 0;
