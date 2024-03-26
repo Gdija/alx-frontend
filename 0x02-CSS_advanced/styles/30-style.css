@@ -318,7 +318,7 @@ ul.row{
     z-index: 1;
 }
 .card-work:hover .card-inner{
-    background-color: rgba();
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .card-work .card-title{
     text-align: center;
@@ -327,12 +327,14 @@ ul.row{
     height: 100%;
     position: relative;
 }
-.card-work .card-title{
+.card-work:link,
+ .card-title:link{
     display: block;
     text-decoration: none;
     padding-top: 45%;
 }
-.card-work::after .card-title::after{
+.card-work:link::after,
+ .card-title:link::after{
     position: absolute;
     top: 0;
     right: 0;
